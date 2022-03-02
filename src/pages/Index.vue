@@ -19,7 +19,7 @@
 						:style="styled"
 						class="z-10 flex items-center px-6 py-4 ml-auto text-xl font-semibold leading-none text-white border bg-ui-primary border-ui-primary hover:bg-green-400 hover:border-green-400"
 					>
-						{{ toggle ? 'Get started already' : 'Get started' }}
+						{{ toggle ? 'GET STARTED' : 'Get started' }}
 					</g-link>
 				</div>
 

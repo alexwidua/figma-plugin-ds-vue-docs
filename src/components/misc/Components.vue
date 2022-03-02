@@ -1,7 +1,7 @@
 <template>
 	<div class="window">
 		<div class="window__bar">
-			CTA
+			Figma Plugin
 		</div>
 		<div class="window__content">
 			<IconButton
@@ -177,8 +177,7 @@
 			/>
 			<Divider />
 			<div class="flex">
-				<Toggle v-model="toggle" :disabled="lock"
-					>Toggle undertone</Toggle
+				<Toggle v-model="toggle" :disabled="lock">Capslock</Toggle
 				><Tooltip width="116" position="r" style="margin-left: -16px"
 					>This is a tooltip.</Tooltip
 				>
